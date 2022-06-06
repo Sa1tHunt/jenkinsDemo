@@ -6,12 +6,7 @@ pipeline {
     stages {
         stage('Time') {
             steps {
-                echo 'Building..'
-            }
-        }
-        stage('Test') {
-            steps {
-                build 'SeleniumMaven'
+                echo '2022-06-07-14-00'
             }
         }
         stage('Deploy') {
