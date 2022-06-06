@@ -4,9 +4,9 @@ pipeline {
     }
 
     stages {
-        stage('Time') {
+        stage('Hello') {
             steps {
-                echo '2022-06-07-14-00'
+                echo 'Hello Hongik!'
             }
         }
         stage('Deploy') {
